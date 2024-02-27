@@ -1,0 +1,35 @@
+.red-ball{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    height: 18px;
+    width: 18px;
+    border-radius: 360px;
+    position: absolute;
+    left: 1140px;
+    top: 183px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}.produc-page,.category-page{
+    text-decoration: none;
+    font-weight: 700;
+    &:hover{
+        text-decoration:  underline;
+    }
+    
+}.save-order-button button{
+    border: 1px solid silver;
+    background-color: brown;
+    color: white;
+    border-radius: 12px;
+    width: 150px;
+    height: 45px;
+    &:hover{
+        border: 1px solid silver;
+    background-color: brown;
+    color: white;
+    border-radius: 12px;
+    }
+}

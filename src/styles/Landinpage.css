@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-dm-sans: "DM Sans";
+  --font-dongle: Dongle;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-17xl: 36px;
+  --font-size-61xl: 80px;
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray: #201e1e;
+  --color-gainsboro: #e6e3e3;
+  --color-black: #000;
+  --color-blueviolet: #4942e4;
+  --color-yellow: #ffff00;
+  --color-red: #f71111;
+
+  /* Paddings */
+  --padding-26xl: 45px;
+  --padding-69xl: 88px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+}
+.hero-section-image-1,
+.vector-icon {
+  position: absolute;
+  height: 3.32%;
+  width: 1.71%;
+  top: 10.93%;
+  right: 4.83%;
+  bottom: 85.75%;
+  left: 93.47%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hero-section-image-1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+}
+.die,
+.f {
+  position: absolute;
+  top: 14.1%;
+  left: 46.33%;
+  font-family: var(--font-dongle);
+  color: var(--color-white);
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+.die {
+  left: 52%;
+}
+.chefs-special {
+  position: absolute;
+  top: 28.5%;
+  left: 46.33%;
+  font-size: var(--font-size-13xl);
+  color: #cf1919;
+}
+.freshness {
+  margin: 0;
+}
+.freshness-in-every-container {
+  position: absolute;
+  top: 31.98%;
+  left: 46.07%;
+  font-size: 96px;
+}
+.lorem-ipsum-dolor-container {
+  position: absolute;
+  top: 58.19%;
+  left: 46.07%;
+  font-size: var(--font-size-13xl);
+}
+.landingpage-child {
+  position: absolute;
+  height: 2.78%;
+  width: 3.07%;
+  top: 18.07%;
+  right: 48.47%;
+  bottom: 79.15%;
+  left: 48.47%;
+  border-radius: 4px;
+  background-color: #72ff04;
+}
+.oo {
+  position: absolute;
+  height: 6.16%;
+  width: 3.93%;
+  top: 14.1%;
+  left: 48.07%;
+  font-family: var(--font-dongle);
+  display: inline-block;
+}
+.landingpage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1007px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
+.register-button button{
+  position: absolute;
+  top: 70px;
+  left: 850px;
+  width: 0px;
+  font-weight: 600;
+  border: 2px solid black;
+  font-size: 22px;
+  height: 70px;
+  border-radius: 120px;
+}.order-button button{
+   position: absolute;
+   top: 750px;
+   left: 690px;
+   height: 70px;
+   width: 250px;
+   border-radius: 120px;
+   font-size: 22px;
+}

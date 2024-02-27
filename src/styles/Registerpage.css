@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sniglet:wght@800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Nova+Square&family=Quicksand&family=Zen+Kaku+Gothic+Antique&display=swap');
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-zen-kaku-gothic-antique: "Zen Kaku Gothic Antique";
+  --body-large: Inter;
+  --font-poppins: Poppins;
+  --font-sniglet: Sniglet;
+
+  /* font sizes */
+  --font-size-smi-8: 12.8px;
+  --font-size-3xl: 22px;
+  --font-size-7xl: 26px;
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-41xl: 60px;
+  --font-size-lg: 18px;
+  --font-size-11xl: 30px;
+  --body-large-size: 16px;
+  --font-size-19xl: 38px;
+  --display-medium-size: 48px;
+  --font-size-6xl: 25px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-cadetblue: #84bdc2;
+  --color-lightblue: #ceeaf7;
+  --color-burlywood: #f8ba90;
+  --color-gray-100: #fafafa;
+  --color-gray-200: #757575;
+  --color-gray-300: #2c2c2c;
+  --color-gray-400: #2b2b2b;
+  --color-gray-500: #212121;
+  --color-gray-600: #1e1e1e;
+  --color-darkslategray-100: #454545;
+  --color-darkslategray-200: #424242;
+  --color-dimgray-100: #555;
+  --color-dimgray-200: #515151;
+  --color-honeydew-100: #edffef;
+  --color-limegreen-100: #53ec62;
+  --color-limegreen-200: #39db4a;
+  --color-black: #000;
+  --color-salmon-100: #ff7979;
+  --color-salmon-200: #ff6868;
+  --color-darkseagreen: #90bd95;
+  --color-palegreen: #5fe26c;
+  --color-lightgoldenrodyellow: #c1f1c6;
+  --color-goldenrod-100: #f1c74e;
+  --color-goldenrod-200: #e6af10;
+  --color-silver-100: #bdbdbd;
+
+  /* Border radiuses */
+  --br-341xl: 360px;
+  --br-61xl: 80px;
+  --br-49xl: 68px;
+  --br-5xs: 8px;
+  --br-121xl: 140px;
+  --br-22xl: 41px;
+  --br-6xl: 25px;
+  --br-21xl: 40px;
+  --br-11xl: 30px;
+  --br-18xl-5: 37.5px;
+  --br-23xl-5: 42.5px;
+  --br-xl: 20px;
+}
+
+.style-group-1-child,
+.style-group-1-item {
+  position: absolute;
+  top: 283.8px;
+  left: 146.8px;
+  border-radius: var(--br-61xl) 0 var(--br-61xl) 0;
+  background-color: var(--color-burlywood);
+  width: 151.8px;
+  height: 136.7px;
+}
+.style-group-1-item {
+  top: 420.5px;
+  left: 306.5px;
+  width: 136.7px;
+  height: 160.7px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.rectangle-div,
+.style-group-1-child1,
+.style-group-1-child2,
+.style-group-1-child3,
+.style-group-1-inner {
+  position: absolute;
+  top: 140.5px;
+  left: 0;
+  border-radius: 0 0 var(--br-61xl) 0;
+  background-color: var(--color-cadetblue);
+  width: 138.9px;
+  height: 132.9px;
+}
+.rectangle-div,
+.style-group-1-child1,
+.style-group-1-child2,
+.style-group-1-child3 {
+  top: 132.9px;
+  left: 614px;
+  width: 136.7px;
+  height: 146.8px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.style-group-1-child1,
+.style-group-1-child2,
+.style-group-1-child3 {
+  top: 140.5px;
+  left: 0;
+  background-color: var(--color-burlywood);
+  width: 140.5px;
+  height: 138.9px;
+  transform: rotate(-90deg);
+}
+.style-group-1-child2,
+.style-group-1-child3 {
+  top: 132.9px;
+  left: 614px;
+  width: 146.8px;
+  height: 132.9px;
+  transform: rotate(180deg);
+}
+.style-group-1-child3 {
+  top: 136.7px;
+  left: 296.6px;
+  background-color: var(--color-lightblue);
+  width: 140.5px;
+  height: 153.7px;
+  transform: rotate(90deg);
+}
+.style-group-1-child4 {
+  top: 420.5px;
+  left: 144.8px;
+  border-radius: 0 0 var(--br-61xl) var(--br-61xl);
+  width: 144.8px;
+  height: 147.1px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.style-group-1-child4,
+.style-group-1-child5,
+.style-group-1-child6 {
+  position: absolute;
+  background-color: var(--color-lightblue);
+}
+.style-group-1-child5 {
+  top: 420.5px;
+  left: 614px;
+  border-radius: 0 0 var(--br-61xl) var(--br-49xl);
+  width: 144.8px;
+  height: 150.9px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.style-group-1-child6 {
+  top: 136.7px;
+  left: 306.5px;
+  border-radius: 0 0 var(--br-61xl) 0;
+  width: 156.7px;
+  height: 140.5px;
+}
+.style-group-1-child7,
+.style-group-1-child8 {
+  position: absolute;
+  top: 3.8px;
+  left: 144.8px;
+  border-radius: var(--br-341xl);
+  background-color: var(--color-cadetblue);
+  width: 146.8px;
+  height: 132.9px;
+}
+.style-group-1-child8 {
+  left: 311.5px;
+}
+.style-group,
+.style-group-1,
+.style-group-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 614px;
+  height: 420.5px;
+}
+.style-group,
+.style-group-2 {
+  top: 420.5px;
+}
+.style-group {
+  top: 29px;
+  left: 774px;
+  height: 841px;
+}
+.registerpage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 900px;
+  overflow: hidden;
+}
+.shop-name{
+color: hwb(199 25% 53%);
+font-size: 32px;
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+position: absolute;
+top: 20px;
+left: 350px;
+}.logo{
+  position: absolute;
+  top: 10px;
+  left: 280px;
+  color: #406678;
+  font-size: 40px;
+}.short-desc{
+  font-size: 30px;
+  color: #424242;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-weight: 600;
+  position: absolute;
+  top: 80px;
+  left: 250px;
+}
+.short-desc span{
+  position: absolute;
+  top: 40px;
+  color: #424242;
+  left: 0;
+}.short-title{
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 12.8px;
+  color: #757575;
+  position: absolute;
+  top: 180px;
+  left: 250px;
+}.input-fields{
+  position: absolute;
+  top: 225px;
+  left: 150px;
+}.mb-3 input{
+  width: 450px;
+  height: 50px;
+}.mb-3 label{
+  font-size: 16px;
+  margin-left: -340px;
+  color: #406678;
+}.register-button button{
+  position: absolute;
+  top: 470px;
+  left: 0;
+  width: 450px;
+  height: 50px;
+  font-weight: 600;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 20px;
+  border: none;
+}.privacy-policy{
+  color: #757575;
+  text-decoration: underline;
+  position: absolute;
+  top: 760px;
+  left: 110px;
+}.already{
+  color: #406678;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 16.8px;
+}.already-and-login-link{
+  display: flex;
+justify-content: center;
+align-items: center;
+  position: absolute;
+  top: 840px;
+  left: 230px;
+}.login-link{
+  position: absolute;
+  width: 100px;
+  left: 180px;
+  top: 0;
+}
